@@ -1,0 +1,67 @@
+.vehica-tabs-top-v1 .vehica-tabs-top-v1__left {
+    width: 50%
+}
+
+.vehica-tabs-top-v1__heading-big {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 38px;
+    line-height: 48px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+@media(min-width:900px) {
+    .vehica-tabs-top-v1__heading-big {
+        font-size: 60px;
+        line-height: 76px;
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+@media(min-width:1200px) {
+    .vehica-tabs-top-v1__heading-big {
+        font-size: 50px;
+        line-height: 63px;
+        text-align: left;
+        margin-bottom: 0
+    }
+}
+
+.rtl .vehica-tabs-top-v1__heading-big {
+    text-align: right
+}
+
+.ds-btn li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+
+.ds-btn li a span {
+    padding-left: 15px;
+    padding-right: 5px;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+.ds-btn li a span small {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+.head-logi {
+    position: relative;
+}
+
+.head-logi h1 {
+    color: rgb(15, 14, 14);
+    top: 1%;
+    left: 33%;
+    position: sticky;
+    font-size: -webkit-xxx-large;
+}

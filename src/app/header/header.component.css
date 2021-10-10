@@ -1,0 +1,145 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover {
+    text-decoration: orangered underline;
+}
+.navbar {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+
+.navbar .brand-navbar img:hover {
+    opacity: 0.7;
+}
+.active{
+    color: orangered !important;
+}
+.navbar ul {
+    font-family: 'Muli', Arial, Helvetica, sans-serif!important;
+    padding: 0px 0px 0px 65px;
+    font-size: 16px;
+    font-weight: 600;
+    /* padding: 0px 30px 0px 0px; */
+}
+
+.navbar ul li a {
+    font-weight: 700;
+    padding: 14px;
+    color: white;
+    margin: 10px 0px 0px 10px;
+    font-size: 16px;
+}
+
+.navbar ul li a .fab {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.navbar ul li.active>a {
+    color: orangered;
+    font-weight: bold;
+    font-size: 12px;
+    border-left: 3px solid orangered;
+    border-radius: 40px;
+}
+
+.iconStyle {
+    color: orangered;
+}
+
+
+/*=====================================Slier============================================*/
+.navbar-collapse.collapse.show{
+    z-index: 99;
+    background: #000;
+    opacity: 0.8;
+}
+
+
+header .carousel-inner .item {
+    height: 100vh;
+}
+
+.carousel-caption {
+    padding-bottom: 130px;
+}
+
+.carousel-caption h1 {
+    font-size: 70px;
+    font-weight: 1000;
+    text-shadow: 3px 3px orangered;
+    ;
+    text-transform: uppercase;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+.carousel-caption p {
+    animation-delay: 1s;
+}
+
+.carousel-caption .btn {
+    animation-delay: 1s;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 20px;
+    animation-duration: 2s;
+}
+
+.carousel-control-prev {
+    width: 48px;
+    height: 48px;
+    top: auto;
+    bottom: 0;
+    font-size: 2rem;
+}
+
+.carousel-control-next {
+    width: 48px;
+    height: 48px;
+    top: auto;
+    bottom: 0;
+    font-size: 2rem;
+}
+
+.logo-vehica img {
+    width: auto;
+    max-height: 32px;
+}
+
+
+/*=====================================Slier============================================*/
+
+@media only screen and (max-width:480px) {
+    .carousel-caption {
+        padding-bottom: 20px;
+    }
+    .carousel-caption h1 {
+        font-size: 20px;
+        font-weight: 1000;
+        text-shadow: 3px 3px orangered;
+        ;
+        text-transform: uppercase;
+        animation-delay: 1s;
+        animation-duration: 2s;
+    }
+    .carousel-caption p {
+        animation-delay: 1s;
+        font-size: 10px;
+    }
+    .carousel-caption .btn {
+        animation-delay: 1s;
+        border-radius: 20px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        margin-top: 5px;
+        animation-duration: 2s;
+        padding: 5px;
+        font-size: 10px;
+    }
+}

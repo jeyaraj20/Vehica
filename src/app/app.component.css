@@ -1,0 +1,196 @@
+.body {
+    font-family: OpenSans
+}
+
+.head-login {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 900;
+    margin-bottom: 9px;
+}
+
+.welcome {
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.input-login-reg {
+    font-family: 'Muli', Arial, Helvetica, sans-serif!important;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 0 0 rgb(196 196 196 / 24%);
+    border: solid 1px #e7edf3;
+    height: 53px;
+    line-height: 53px;
+    padding: 0 27px;
+    font-size: 15px;
+    color: #2f3b48;
+    width: 100%;
+}
+
+.login_remember {
+    margin: 32px 0;
+}
+
+.vehica-radio {
+    margin-right: 7px;
+}
+
+.social-login-facebook img {
+    font-size: 23px;
+    width: 15px;
+    /* position: absolute; */
+    top: 14px;
+    left: 25px;
+}
+
+.social-login--google img,
+.social-login i {
+    font-size: 23px;
+    width: 23px;
+    /* position: absolute; */
+    top: 14px;
+    left: 16px;
+}
+
+.social-login--google {
+    margin-right: 10px;
+    color: #2f3b48;
+}
+
+.social-login {
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    box-shadow: 1px 1px 0 0 rgba(196, 196, 196, .24)!important;
+    border: solid 1px #e7edf3;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 51px;
+    padding: 0 27px 0 55px;
+}
+
+.register-page {
+    padding: 90px 140px 90px 30px;
+    min-height: 600px;
+}
+
+.social-btn {
+    overflow: hidden;
+    font-size: 17px;
+    line-height: 11px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #f2f5fb;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 17px 44px;
+    vertical-align: top;
+    border-radius: 10px;
+    background-color: var(--primary);
+    transition: all .2s ease-in-out;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    align-items: center;
+    transform: translateZ(0);
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+}
+
+.cont-with {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.btn-org {
+    overflow: hidden;
+    /* display: inline-block; */
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    border: 0 solid transparent;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 16px 25px;
+    vertical-align: top;
+    border-radius: 10px;
+    background-color: var(--primary);
+    transition: all .2s ease-in-out;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    align-items: center;
+    transform: translateZ(0);
+    text-decoration: none;
+    background-color: #ff6a00;
+}
+
+.login-register {
+    margin: auto;
+}
+
+.login-page {
+    padding: 90px 140px 90px 30px;
+    min-height: 600px;
+    background: #f2f5fb;
+}
+
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+}
+
+.radio-item input[type='radio'] {
+    /* display: none; */
+}
+
+.radio-item span {
+    color: #666;
+    font-weight: normal;
+}
+
+.radio-item span:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #004c97;
+    background-color: transparent;
+}
+
+.radio-item input[type=radio]:checked+span:after {
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    /* position: absolute; */
+    top: 9px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background: #004c97;
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 100%;
+    }
+}

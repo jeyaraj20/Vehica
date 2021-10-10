@@ -1,0 +1,121 @@
+
+
+    <div class="container">
+    <div class="row justify-content-center">
+        
+<div class="dfg">
+    <div class="sign-inup">
+    <div class="col-lg-12">
+    <div class="sign-form">
+    <div class="sign-inner">
+    <div class="sign-logo" id="logo">
+    <a href="index.html"><img class="logo-inverse" src="assets/img/Vehica – Automotive Dealership WordPress Theme_files/vehica-logo-white-2-165x29.webp" alt=""></a>
+    </div>
+    <div class="form-dt">
+    <div class="form-inpts checout-address-step">
+       
+            <div class="form-title"><h6>Vehicle-Details</h6></div>
+
+    <form [formGroup]="formGroup"  class="row g-3">
+
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Name</label>
+            <input id="CustomerEmail" name="customerName" type="text"formControlName="customerName"  class=" form-control lgn_input" required="">
+        </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Mobile-Number</label>
+            <input id="CustomerPassword" name="mobileNo" type="text" formControlName="mobileNo" class=" form-control lgn_input" required="">
+        </div>
+          <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Vehicle-Location</label>
+              <input id="CustomerPassword" name="currentLocation" type="text" formControlName="currentLocation"  class=" form-control lgn_input" required="">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Vehicle-Brand</label>
+              <input id="CustomerPassword" name="vehicleName" type="text" formControlName="vehicleName"  class=" form-control lgn_input" required="">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Vehicle-Model</label>
+              <input id="CustomerPassword" name="vehicleModel" type="text" formControlName="vehicleModel" class=" form-control lgn_input" required="">
+            </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Vehicle-Number</label>
+          <input id="CustomerPassword" name="vehicleNo" type="text" formControlName="vehicleNo"  class=" form-control lgn_input" required="">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Insurance-Date</label>
+          <input id="CustomerPassword" name="insurance" type="date" formControlName="insurance" class=" form-control lgn_input" required="">
+        </div>
+         <div class="col-md-6">
+          <label for="inputState" class="form-label">FC Available </label>
+          <select id="inputState" class="form-control"  name="fc" type="text" formControlName="fc"  class="form-control lgn_input" required="">
+            
+            <option selected></option>
+            <option >YES</option>
+            <option >No</option>
+
+          </select>
+        </div>
+        <div class="col-md-6">
+            <label for="inputState" class="form-label">Fuel Type </label>
+            <select id="inputState" class="form-control"  name="fuelType" type="text" formControlName="fuelType"  class=" form-control lgn_input" required="">
+              
+              <option selected></option>
+              <option >Petrol</option>
+              <option >Diesel</option>
+  
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">KiloMeter</label>
+            <input id="CustomerPassword" name="kiloMeter" type="text" formControlName="kiloMeter"  class=" form-control lgn_input" required="">
+        </div>
+         
+        <div class="col-md-6">
+          <label for="inputState" class="form-label">Vehicle Type </label>
+          <select id="inputState" class="form-control"  name="fuelType" type="text" formControlName="vehicleType"  class=" form-control lgn_input" required="">
+            
+            <option selected >Car</option>
+            
+            
+
+          </select>
+        </div>
+         <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Price</label>
+            <input id="CustomerPassword" name="price" type="number" formControlName="price"  class=" form-control lgn_input" required="">
+        </div>
+        
+        <div class="col-12">
+          <button  class="login-btn hover-btn btn btn-primary" (click)="onSubmit()"type="submit" id="login"data-trans-key="customer.login.login" style=" margin-top: 9px; margin-bottom: 9px;">Submit Now</button>
+
+        </div>
+      </form>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/OwlCarousel/owl.carousel.js"></script>
+    <script src="vendor/semantic/semantic.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/product.thumbnail.slider.js"></script>
+    <script src="js/offset_overlay.js"></script>
+    <script src="js/night-mode.js"></script>
+    
+</div>
+<app-footer></app-footer>
+
+
+
+
+

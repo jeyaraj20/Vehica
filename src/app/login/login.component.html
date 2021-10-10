@@ -1,0 +1,45 @@
+<div class="container">
+
+    <div class="row" id="ads">
+        <!-- Category Card -->
+        <div *ngFor="let menu of header" class="col-md-4">
+            <div class="card rounded">
+                <div class="card-image">
+                    <span class="card-notify-badge">{{menu.manuName}}</span>
+                    <span class="card-notify-year">2018</span>
+                    <img class="img-fluid" src="{{menu.img}}" alt="Alternate Text" />
+                </div>
+                <div class="info ">
+                    <div class="title ">
+                        <h5 target="_blank ">{{menu.scriptEdien}}</h5>
+                    </div>
+                    <div class="address">
+
+
+                        <div class="desc " *ngFor="let addressDetail of menu.address">
+
+                            <p> {{addressDetail}}</p>
+                        </div>
+
+
+                        <div class="contact-no">
+                            <div class="title ">
+                                <h5 target="_blank ">Mobile No</h5>
+
+                            </div>
+                            <p>9787430308</p>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>

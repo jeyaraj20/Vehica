@@ -1,0 +1,77 @@
+        .inventory-dropdown-toggle {
+            border: 1px solid #e7edf3;
+            box-shadow: 1px 1px 0 0 rgb(196 196 196 / 24%);
+            padding: 0 0 0 27px;
+            background: #fff;
+            border-radius: 10px;
+            position: relative;
+            height: 49px;
+            width: 400px;
+        }
+        
+        .actions .vs__clear {
+            fill: var(--primary);
+            position: absolute;
+            background: #fff;
+            padding: 8px 13px;
+            z-index: 2;
+            top: 3px;
+            right: 5px;
+        }
+        
+        .actions:after {
+            position: absolute;
+            right: 26px;
+            top: 16px;
+            content: '\f107';
+            font-family: "font awesome 5 free";
+            font-weight: 900;
+            color: #000;
+            font-size: 14px;
+        }
+        
+        .vehica-inventory-v1__2-cols {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 1468px;
+            display: flex;
+            align-content: space-between;
+        }
+        
+        .vehica-inventory-v1__2-cols__left {
+            flex: 1;
+            width: 100%;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .vehica-car-card-row {
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #e7edf3;
+            box-shadow: 1px 1px 0 0 rgb(196 196 196 / 24%);
+            background-color: #fff;
+            transition: all .2s ease;
+            margin: 0 0 11px;
+            position: relative;
+        }
+        
+        .vehica-car-card-row-wrapper {
+            width: 100%;
+            position: relative;
+        }
+        
+        .vehica-car-card-link {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+        }
+        
+        .vehica-car-card-row__inner {
+            padding: 14px 20px 14px 16px;
+        }

@@ -1,0 +1,119 @@
+/*search box css start here*/
+
+.search-sec {
+    padding: 2rem;
+}
+
+/* .carousel-inner {
+    height: calc(80vh - 80px);
+} */
+
+.search-slt {
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+.wrn-btn {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+@media (min-width: 992px) {
+    .search-sec {
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px) {
+    .search-sec {
+        background: #1A4668;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* .carousel-inner {
+        height: calc(100vh - 400px);
+    } */
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* @media only screen and (max-width: 600px) {
+    .carousel-inner {
+        height: calc(80vh - 400px);
+    }
+} */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* @media only screen and (max-width: 768px) {
+    .carousel-inner {
+        height: calc(100vh - 400px);
+    }
+}
+@media (max-width: 400px){
+    .carousel-inner{
+        height: calc(100vh - 469px);
+    }
+} */
+
+/* 
+
+@media (min-width: 576px) { 
+     .carousel-inner {
+    height: calc(100vh - 784px);
+}
+} 
+
+
+@media (min-width: 992px) { 
+    .carousel-inner {
+        height: calc(100vh - 1047px);
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .carousel-inner {
+        height: calc(100vh - 400px);
+    }
+}
+
+@media (max-width: 575px) {
+    .carousel-inner {
+        height: calc(100vh - 784px);
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-inner {
+        height: calc(100vh - 603px);
+    }
+ }
+
+@media (max-width: 991px) { 
+     .carousel-inner {
+    height: calc(100vh - 1047px);
+}}
+
+@media (max-width: 1199px) {
+    .carousel-inner {
+        height: calc(100vh - 528px);
+    }
+ }
+ */
